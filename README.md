@@ -20,8 +20,26 @@ echo "Xft.dpi: 150" > ~/.Xresources
 xrdb -merge ~/.Xresources
 exec i3
 
-## i3wm Themes installation 
+## i3wm extra utilities installation 
 
-I will use: https://github.com/stav121/i3wm-themer //crashed  
+I will use: https://vincent.bernat.ch/en/blog/2021-i3-window-manager 
 
-//to-do install a windows manager
+I installed:
+-polybar for making the status bar prettier
+-picom as a compositor for transparencies etc
+-rofi as app launcher
+-feh as desktop wallpaper handler
+
+## i3wm change keyboard layout
+
+setxkbmap -layout es
+setxkbmap -option 'grp:alt_shift_toggle'
+
+copied in ~/.config/i3/config:
+exec "setxkbmap -layout es"
+exec "setxkbmap -option 'grp:alt_shift_toggle'"
+
+## rofi config
+
+used https://github.com/adi1090x/rofi#menu
+
