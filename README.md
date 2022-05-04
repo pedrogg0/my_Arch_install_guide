@@ -43,3 +43,11 @@ exec "setxkbmap -option 'grp:alt_shift_toggle'"
 
 used https://github.com/adi1090x/rofi#menu
 
+## polybar config
+
+from https://github.com/adi1090x/polybar-themes
+
+Installed fonts from https://github.com/ryanoasis/nerd-fonts
+
+
+
