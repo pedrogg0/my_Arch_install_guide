@@ -1,5 +1,5 @@
-# my_kali_install-config
-I will save here my install and config of kali in virtualbox
+# My_Arch_install_guide
+I will save here my install and config of Arch linux
 
 # Installation
 
