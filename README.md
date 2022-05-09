@@ -39,6 +39,8 @@ copied in ~/.config/i3/config:
 exec "setxkbmap -layout es"
 exec "setxkbmap -option 'grp:alt_shift_toggle'"
 
+## copy i3/config in ~/.config
+
 ## rofi config
 
 used https://github.com/adi1090x/rofi#menu
