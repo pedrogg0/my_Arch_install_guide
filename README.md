@@ -1,13 +1,5 @@
-# My_Arch_install_guide
+# i3_install_guide
 I will save here my install and config of Arch linux
-
-# Installation
-
-I downloaded it from https://www.kali.org/get-kali/#kali-virtual-machines picked virtual box version cause vmware version was causing me troubles with keyboard unrecognition
-
-I just imported it with virtual box and updated the system after startup.
-
-I changed the keyboard layout with: setxkbmap -layout es  //to-do run it at start
 
 # i3wm Installation
 
@@ -25,6 +17,7 @@ exec i3
 I will use: https://vincent.bernat.ch/en/blog/2021-i3-window-manager 
 
 I installed:
+
 -polybar for making the status bar prettier
 -picom as a compositor for transparencies etc
 -rofi as app launcher
@@ -39,11 +32,11 @@ copied in ~/.config/i3/config:
 exec "setxkbmap -layout es"
 exec "setxkbmap -option 'grp:alt_shift_toggle'"
 
+alternative:
+  add to ~/.zshrc << setxkbmap es
+
 ## copy i3/config in ~/.config
 
-## rofi config
-
-used https://github.com/adi1090x/rofi#menu
 
 ## polybar config
 
