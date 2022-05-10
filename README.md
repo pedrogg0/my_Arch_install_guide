@@ -51,5 +51,13 @@ from https://github.com/adi1090x/polybar-themes
 
 Installed fonts from https://github.com/ryanoasis/nerd-fonts
 
+to fix rofi weird aspect:
+```
+find ~/ -name '*.rasi' | xargs sed -i "s/element-text\s*{$/element-text {\n    background-color:  @al;\n    text-color: inherit;\n/g"
+´´´
+and
+´´´
+find ~/ -name '*.rasi' | xargs sed -i "s/element-icon\s*{$/element-icon {\n    background-color:  @al;\n    text-color: inherit;\n/g" 
+´´
 
 
